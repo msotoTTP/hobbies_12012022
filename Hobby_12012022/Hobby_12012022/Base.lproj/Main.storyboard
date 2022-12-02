@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="asn-y2-a7P">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Bio-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Hobby_12012022" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="24" translatesAutoresizingMaskIntoConstraints="NO" id="a3u-tm-vkr">
+                                <rect key="frame" x="0.0" y="44" width="414" height="769"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" image="joeburrowinaction" translatesAutoresizingMaskIntoConstraints="NO" id="ra4-NM-Hdf">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="295.5"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Joe Burrow" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="430-ae-BiK">
+                                        <rect key="frame" x="76" y="319.5" width="262" height="60"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="50"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="justified" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0se-Ux-5Cr">
+                                        <rect key="frame" x="0.0" y="403.5" width="414" height="365.5"/>
+                                        <mutableString key="text">Joseph Lee Burrow (born December 10, 1996) is an American football quarterback for the Cincinnati Bengals of the National Football League (NFL). Following a stint with Ohio State, Burrow played college football at LSU, where he won the Heisman Trophy and the 2020 College Football Playoff National Championship as a senior. He was selected by the Bengals first overall in the 2020 NFL Draft.
+
+After an injury-shortened rookie season, Burrow rebounded in his second year by leading the Bengals to their first playoff win since 1990 – ending the longest active drought in the four major North American sports – and an appearance in Super Bowl LVI. He holds the Bengals franchise records for passer rating, completion percentage, and single-game passing yards and is tied with Boomer Esiason for the most playoff wins.</mutableString>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" red="0.90588235294117647" green="0.3529411764705882" blue="0.18431372549019609" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="a3u-tm-vkr" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="Puh-u3-LMY"/>
+                            <constraint firstItem="a3u-tm-vkr" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Yqn-Lq-5GV"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="a3u-tm-vkr" secondAttribute="bottom" id="cff-0r-JvT"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="a3u-tm-vkr" secondAttribute="trailing" id="ind-W1-2bm"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Bio" image="person" catalog="system" selectedImage="person.fill" id="CPM-6s-LQt"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="923" y="-204"/>
+        </scene>
+        <!--Hobbies-->
+        <scene sceneID="Pny-tl-QIf">
+            <objects>
+                <viewController id="p8c-1W-5wB" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Dfx-oT-kzh">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="15H-kt-qcQ">
+                                <rect key="frame" x="0.0" y="44" width="414" height="769"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="Z3X-Qr-SlB">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="379.5"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" image="kidcudi" translatesAutoresizingMaskIntoConstraints="NO" id="BtC-uF-2ov">
+                                                <rect key="frame" x="57" y="0.0" width="300" height="313.5"/>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="He also likes to listen to Kid Cudi, who named a song after Burrow on his 2022 album Entergalactic." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HFP-yd-jK7">
+                                                <rect key="frame" x="5" y="338.5" width="404" height="41"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="sBm-Zp-ZMh">
+                                        <rect key="frame" x="0.0" y="389.5" width="414" height="379.5"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" image="joeburrowchess" translatesAutoresizingMaskIntoConstraints="NO" id="5p6-7Q-tod">
+                                                <rect key="frame" x="0.0" y="0.0" width="414" height="313.5"/>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Joe Burrow keeps a chessboard in his locker because he loves to play." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mh4-hE-N78">
+                                                <rect key="frame" x="2" y="338.5" width="410.5" height="41"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="gaZ-M8-QP1"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="15H-kt-qcQ" firstAttribute="top" secondItem="gaZ-M8-QP1" secondAttribute="top" id="Qfv-qI-Ks5"/>
+                            <constraint firstItem="15H-kt-qcQ" firstAttribute="leading" secondItem="gaZ-M8-QP1" secondAttribute="leading" id="gJV-W1-GdB"/>
+                            <constraint firstItem="gaZ-M8-QP1" firstAttribute="trailing" secondItem="15H-kt-qcQ" secondAttribute="trailing" id="j3l-ul-8JX"/>
+                            <constraint firstItem="gaZ-M8-QP1" firstAttribute="bottom" secondItem="15H-kt-qcQ" secondAttribute="bottom" id="pLX-ds-FkK"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Hobbies" image="figure.walk.circle" catalog="system" selectedImage="figure.walk.circle.fill" id="aWX-1D-xda"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6Hc-sW-se1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="900" y="475"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="251-J9-6be">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="asn-y2-a7P" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="6pb-9h-bE8">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="9QS-T5-Gm3"/>
+                        <segue destination="p8c-1W-5wB" kind="relationship" relationship="viewControllers" id="FlJ-aF-mjM"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dwE-Gh-h2N" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="18.840579710144929" y="87.723214285714278"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="figure.walk.circle" catalog="system" width="128" height="121"/>
+        <image name="figure.walk.circle.fill" catalog="system" width="128" height="121"/>
+        <image name="joeburrowchess" width="1200" height="630"/>
+        <image name="joeburrowinaction" width="2560" height="1707"/>
+        <image name="kidcudi" width="300" height="300"/>
+        <image name="person" catalog="system" width="128" height="117"/>
+        <image name="person.fill" catalog="system" width="128" height="120"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
